@@ -1,0 +1,40 @@
+
+
+.glowna {
+	margin-left: auto;
+	margin-right: auto;
+	width:700px;
+	padding-top: 150px;
+}
+#google {
+	text-indent:-9999px;
+}
+.logowanie {
+	float:right;
+}
+.footer {
+	position:absolute;
+	bottom:0px;
+	background-color:rgb(242, 242, 242);
+	margin:0 auto;
+	margin-bottom:0;
+	border-top:rgb(228, 228, 228) 1px solid;
+	width:100%;
+	position:absolute;
+	right:0;
+	left:0;
+	line-height: 40px;
+
+}
+ .footer a {
+	font: 13px Arial, sans-serif;
+	text-decoration: none;
+	color:rgb(102, 102, 102);
+	padding-left:27px;
+} 
+.footer a:hover {
+	text-decoration:underline;
+}
+.footer a:visited {
+	color:rgb(102, 102, 102);
+}
