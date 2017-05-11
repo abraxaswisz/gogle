@@ -1,5 +1,11 @@
-
-
+.logowanie a {
+	display:inline-block;
+	font-family: Arial, sans-serif;
+	font-size :13px;
+	line-height: 40px;
+	float:right;
+	padding-right:25px;
+}
 .glowna {
 	margin-left: auto;
 	margin-right: auto;
@@ -16,12 +22,7 @@ img {
 #google {
 	text-indent:-9999px;
 }
-.logowanie li {
-	display:inline;
-}
-.logowanie a {
-	line-height: 40px;
-}
+
 .footer {
 	position:absolute;
 	bottom:0px;
@@ -30,7 +31,6 @@ img {
 	margin-bottom:0;
 	border-top:rgb(228, 228, 228) 1px solid;
 	width:100%;
-	position:absolute;
 	right:0;
 	left:0;
 	line-height: 40px;
