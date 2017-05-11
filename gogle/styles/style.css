@@ -1,0 +1,58 @@
+
+
+.glowna {
+	margin-left: auto;
+	margin-right: auto;
+	width:700px;
+	padding-top: 150px;
+	position:relative;
+	clear:both;
+}
+img {
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+}
+#google {
+	text-indent:-9999px;
+}
+.logowanie li {
+	display:inline;
+}
+.logowanie a {
+	line-height: 40px;
+}
+.footer {
+	position:absolute;
+	bottom:0px;
+	background-color:rgb(242, 242, 242);
+	margin:0 auto;
+	margin-bottom:0;
+	border-top:rgb(228, 228, 228) 1px solid;
+	width:100%;
+	position:absolute;
+	right:0;
+	left:0;
+	line-height: 40px;
+
+}
+ .footer a {
+	font: 13px Arial, sans-serif;
+	text-decoration: none;
+	color:rgb(102, 102, 102)
+	padding-left:27px;
+} 
+.footer a:hover {
+	text-decoration:underline;
+}
+.footer a:visited {
+	color:rgb(102, 102, 102);
+}
+.forma {
+	margin-left:auto;
+	margin-right:auto;
+}
+.forma form {
+	text-align: center;
+}
+.forma input:
