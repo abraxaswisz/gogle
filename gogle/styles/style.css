@@ -1,4 +1,8 @@
+body 
+{font-family:Arial, sans-serif;
+}
 
+/*SEKCJA NA GÓRNY PASEK */
 .logowanie a {
 	display:inline-block;
 	font-family: Arial, sans-serif;
@@ -6,8 +10,10 @@
 	line-height: 40px;
 	float:right;
 	padding-right:25px;
-	/*sprawdzam coś jeszcze  jeszcze jeszcze*/
 }
+
+/*SEKCJA NA WYSZUKIWANIE I LOGO */
+
 .glowna {
 	margin-left: auto;
 	margin-right: auto;
@@ -26,6 +32,31 @@ img {
 	margin: 0 0;
 }
 
+.form p {
+	margin:0 auto;
+}
+.form form {
+	text-align: center;
+}
+
+center input {
+	color:rgb(117, 117, 117);
+	margin: 11px 4px;
+	padding: 0px 16px;
+	font-weight: 700;
+	border: 1px solid rgb(242, 242, 242);
+	background-color: rgb(242, 242, 242);
+	height:36px;
+	min-width:54px;
+}
+center input:hover {
+	color:#222;
+	background-color:#f8f8f8;
+}
+
+
+/* SEKCJA NA FOOTER */
+
 .footer {
 	bottom:0px;
 	background-color:rgb(242, 242, 242);
@@ -36,6 +67,8 @@ img {
 	right:0;
 	left:0;
 	line-height: 40px;
+	position:absolute;
+	overflow:hidden;
 
 }
  .footer a {
@@ -49,10 +82,4 @@ img {
 }
 .footer a:visited {
 	color:rgb(102, 102, 102);
-}
-.form p {
-	margin:0 auto;
-}
-.form form {
-	text-align: center;
 }
