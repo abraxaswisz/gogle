@@ -1,5 +1,6 @@
 body 
 {font-family:Arial, sans-serif;
+	font-size:13px;
 }
 
 /*SEKCJA NA GÓRNY PASEK ssss */
@@ -7,11 +8,37 @@ body
 	display:inline-block;
 	font-family: Arial, sans-serif;
 	font-size :13px;
-	line-height: 40px;
+	line-height: 24px;
 	float:right;
 	padding-right:25px;
 }
 
+.gorne {
+	font: 13px Arial, sans-serif;
+	text-decoration: none;
+	color:rgb(102, 102, 102);
+
+}
+.gorne:hover {
+	text-decoration: underline;
+}
+.gorne:visited {
+	color:rgb(102, 102, 102);
+}
+
+
+#aplikacje {
+background-image:url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+width: 30px;
+height: 30px;
+background-position:-132px -38px;
+}
+#powiadomienia {
+background-image:url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+width: 20px;
+height: 20px;
+margin:5px;
+}
 /*SEKCJA NA WYSZUKIWANIE I LOGO */
 
 .glowna {
@@ -60,11 +87,13 @@ center input:hover {
 	background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
 }
 .wyszukaj {
-	border:1px solid black;
+	border:1px solid rgba(0,0,0,0.16);
 	box-shadow:0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
 	height:44px;
 	padding:1px 1px 1px 1px;
 	width: 584px;
+
+
 }
 
 /* SEKCJA NA FOOTER */
