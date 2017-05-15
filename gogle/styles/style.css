@@ -59,7 +59,13 @@ center input:hover {
 	box-shadow:0 1px 1px rgba(0,0,0,0.1);
 	background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
 }
-
+.wyszukaj {
+	border:1px solid black;
+	box-shadow:0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+	height:44px;
+	padding:1px 1px 1px 1px;
+	width: 584px;
+}
 
 /* SEKCJA NA FOOTER */
 
